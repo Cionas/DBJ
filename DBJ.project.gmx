@@ -8,12 +8,15 @@
   <sprites name="sprites">
     <sprite>sprites\spr_char</sprite>
     <sprite>sprites\spr_ground</sprite>
+    <sprite>sprites\spr_mats</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_char</object>
     <object>objects\obj_ground</object>
+    <object>objects\obj_mats</object>
+    <object>objects\obj_controller</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
