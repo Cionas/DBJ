@@ -25,13 +25,22 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>with(obj_char)
+            <string>//spawn materials to dodge
+if(!instance_exists(obj_mats))
+{
+    instance_create(room_width - irandom_range(100, 400), irandom_range(600, 672), obj_mats);
+   
+}
+
+//death and restart game
+with(obj_char)
 {
     if (life = 0)
     {
         game_restart();
     }
 }
+
 </string>
           </argument>
         </arguments>
