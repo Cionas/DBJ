@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_char</sprite>
+    <sprite>sprites\spr_char_in</sprite>
     <sprite>sprites\spr_ground</sprite>
     <sprite>sprites\spr_mats</sprite>
   </sprites>
