@@ -102,7 +102,6 @@ instance_destroy();
 if(instance_count &lt; irandom_range(22, 24))
 {
 instance_create(room_width - irandom_range(100, 400), irandom_range(600, 672), obj_mats);
-instance_create(room_width - irandom_range(100, 400), irandom_range(600, 672), obj_mats);
 }
 
 </string>
