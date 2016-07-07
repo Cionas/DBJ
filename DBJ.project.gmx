@@ -3,13 +3,20 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <NewExtensions/>
+  <NewExtensions>
+    <extension index="0">extensions\Hero Animation Character</extension>
+  </NewExtensions>
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_char</sprite>
     <sprite>sprites\spr_char_in</sprite>
     <sprite>sprites\spr_ground</sprite>
     <sprite>sprites\spr_mats</sprite>
+    <sprites name="Animations">
+      <sprites name="Hero">
+        <sprite>sprites\spr_herolobby</sprite>
+      </sprites>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -18,6 +25,7 @@
     <object>objects\obj_ground</object>
     <object>objects\obj_mats</object>
     <object>objects\obj_controller</object>
+    <object>objects\obj_score</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
